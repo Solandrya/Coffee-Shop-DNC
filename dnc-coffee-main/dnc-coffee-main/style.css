@@ -1,0 +1,232 @@
+/*LINKS EXTERNOS*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+/* CONFIGURAÇÕES GERAIS*/
+body{
+    margin: 0px;
+    padding: 0;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*BARRA DE NAVEGAÇÃO*/
+
+.navbar{
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.container-fluid{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    width: 100vw;
+}
+
+.navbar-brand{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-left: 2rem;
+    margin-right: 5rem;
+
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #2A3342;
+}
+
+#logo{
+    width: 50px;
+    height: 50px;
+}
+
+.navbar-collapse{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.nav-link{
+    margin-right: 5rem;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+
+    color: #2A3342;
+
+}
+
+.d-flex{
+    display: flex;
+    align-items:center;
+    margin-left: 41rem;
+}
+
+button{
+    background: #FFFFFF;
+    border: 1px solid #D1D1D1;
+    box-shadow: 0px 1px 2px rgba(105, 81, 255, 0.05);
+    border-radius: 36px;
+    cursor:pointer;
+
+    width: 123px;
+    height: 36px;
+    right: 40px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+/*CARDS*/
+
+main.card-group{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 6rem;
+    column-gap: 10px;
+}
+
+article.card{
+    position: relative;
+    height: 450px;
+    background: #FFFFFF;
+    border: 1px solid #EDEBE9;
+    border-radius: 8px;
+    padding: 10px;
+    
+}
+
+article img {
+    width: 350px;
+    height: 302px;
+}
+
+.card-text{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #252423;
+}
+
+/*BOTÃO DOS CARDS*/
+.btn{
+    display: none; /*Usado para esconder o botão*/ 
+    width: 200px;
+    background: #FFFFFF;;
+    border: 1px solid #D1D1D1;
+    box-shadow: 0px 1px 2px rgba(105, 81, 255, 0.05);
+    border-radius: 36px;
+    cursor:pointer;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.fade{
+    display: none; /*Esconde o fade*/
+    position: absolute; /* posiciona a div em relação ao card */
+    top: 0; /* alinha a div ao topo do card */
+    left: 0; /* alinha a div à esquerda do card */
+    width: 100%; /* faz a div ter a mesma largura do card */
+    height: 100%; /* faz a div ter a mesma altura do card */
+    background-color: rgba(0,0,0,0.2); /* cria um fundo preto com opacidade de 50% */
+}
+
+
+/* MODAL */
+
+dialog{
+    width: 670px;
+    height: 600px;
+    border-radius: 20px;
+    border-style: none;
+    background: #FFFFFF;;
+}
+
+.titulo-modal{
+    margin-top: 5rem;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 35px;
+    line-height: 20px;
+
+    color: #000000;
+}
+
+.texto-modal{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 40px;
+
+    margin-top: 4rem;
+
+    text-align: center;
+
+    color: #000000;
+
+}
+
+#fechar{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    border-style: none;
+    color: #000000; 
+    background: rgba(77, 189, 233, 00);
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.fotomodal{
+    width: 132px;
+    height: 109px;
+    margin-top: 100rem;
+}
+
+/* FADE DO MODAL */
+
+.fadeBody{
+    display: block; 
+    background: rgba(217, 217, 217, 0.7);
+}

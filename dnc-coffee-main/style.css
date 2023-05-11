@@ -1,0 +1,135 @@
+/*LINKS EXTERNOS*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+/* CONFIGURAÇÕES GERAIS*/
+body{
+    margin: 0px;
+    padding: 0;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*BARRA DE NAVEGAÇÃO*/
+
+.navbar{
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.container-fluid{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    width: 100vw;
+}
+
+.navbar-brand{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-left: 2rem;
+    margin-right: 5rem;
+
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #2A3342;
+}
+
+#logo{
+    width: 50px;
+    height: 50px;
+}
+
+.navbar-collapse{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.nav-link{
+    margin-right: 5rem;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+
+    color: #2A3342;
+
+}
+
+.d-flex{
+    display: flex;
+    align-items:center;
+    margin-left: 41rem;
+}
+
+button{
+    background: #FFFFFF;
+    border: 1px solid #D1D1D1;
+    box-shadow: 0px 1px 2px rgba(105, 81, 255, 0.05);
+    border-radius: 36px;
+    cursor:pointer;
+
+    width: 123px;
+    height: 36px;
+    right: 40px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+/*CARDS*/
+
+main.card-group{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 6rem;
+    column-gap: 10px;
+}
+
+article.card{
+    height: 450px;
+    background: #FFFFFF;
+    border: 1px solid #EDEBE9;
+    border-radius: 8px;
+    padding: 10px;
+    
+}
+
+article img {
+    width: 350px;
+    height: 302px;
+}
+
+.card-text{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #252423;
+}
